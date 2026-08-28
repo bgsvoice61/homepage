@@ -2292,6 +2292,163 @@ Stage: https://www.pexels.com/photo/elegant-woman-in-blue-dress-on-theater-stage
   }
   #contact.contact-elegant::after{inset:14px!important}
 }
+</style><style id="mobile-responsive-v46">
+/* v46 — PC 원본 보존 / 모바일 단일 반응형 정리 */
+@media(max-width:760px){
+  :root{--header:64px}
+  html,body{width:100%;max-width:100%;overflow-x:hidden}
+  body{font-size:16px!important;line-height:1.78!important;-webkit-text-size-adjust:100%}
+  main section[id]{scroll-margin-top:64px}
+  .wrap,.hero-content,.gallery .section-title,.stage-archive-wrap>.gallery .section-title{
+    width:calc(100% - 32px)!important;max-width:none!important;margin-left:auto!important;margin-right:auto!important
+  }
+  .section,.story-layout-v6 .section,.story-layout-v7 .section{
+    padding:72px 0!important
+  }
+  .section-title{margin-bottom:30px!important;align-items:flex-end!important;gap:12px!important}
+  .section-title h2{font-size:29px!important;line-height:1.32!important;letter-spacing:-.045em!important}
+  .section-title .en{font-size:9px!important;line-height:1.45!important;letter-spacing:.22em!important}
+  h1,h2,h3,blockquote{word-break:keep-all!important;overflow-wrap:break-word!important;text-wrap:balance}
+  p,.hero-copy,.review-text,.case-pro-intro-v36,.contact-simple-copy-v44{word-break:keep-all!important;overflow-wrap:break-word!important;text-wrap:pretty}
+
+  /* 모바일에서는 PC의 강제 줄을 풀고 화면 폭에 맞춰 의미 단위로 자연스럽게 감싼다. */
+  .story-layout-v7 .semantic-line,#about .semantic-line,#contact .semantic-line{
+    display:inline!important
+  }
+  .story-layout-v7 .semantic-line+.semantic-line:before,
+  #about .semantic-line+.semantic-line:before,
+  #contact .semantic-line+.semantic-line:before{content:" "!important}
+  .hero h1 .hero-line,.quote blockquote .semantic-line,#audience .audience-message h3 .semantic-line{
+    display:block!important
+  }
+  .hero h1 .hero-line+.hero-line:before,.quote blockquote .semantic-line+.semantic-line:before,
+  #audience .audience-message h3 .semantic-line+.semantic-line:before{content:none!important}
+
+  /* header */
+  .site-header{height:64px!important}
+  .nav{height:64px!important;grid-template-columns:1fr auto!important;padding:0 16px!important}
+  .brand{font-size:19px!important;line-height:1!important}
+  .brand small{margin-left:7px!important;font-size:8px!important;letter-spacing:.2em!important}
+  .menu-btn{display:grid!important;place-items:center;width:44px;height:44px;padding:0;font-size:25px;line-height:1}
+  .nav-links.open{
+    top:64px!important;max-height:calc(100svh - 64px);overflow-y:auto;
+    padding:20px 20px 24px!important;gap:0!important;background:rgba(250,249,247,.985)!important
+  }
+  .nav-links.open a{display:block;padding:13px 2px;border-bottom:1px solid #e5e0da;font-size:15px!important;white-space:normal!important}
+
+  /* hero */
+  .hero{min-height:max(720px,100svh)!important;align-items:flex-start!important}
+  .hero:before{background-position:62% center!important}
+  .hero-content{padding:126px 0 184px!important}
+  .hero .eyebrow{max-width:310px;font-size:9px!important;line-height:1.65!important;letter-spacing:.2em!important}
+  .hero h1{max-width:350px!important;margin:22px 0 24px!important;font-size:clamp(40px,11.2vw,48px)!important;line-height:1.18!important;letter-spacing:-.055em!important}
+  .hero-copy{max-width:330px!important;font-size:14px!important;line-height:1.9!important}
+  .signature{margin-top:19px!important;font-size:14px!important;line-height:1.6!important}
+  .signature small{margin:4px 0 0!important;font-size:8px!important;letter-spacing:.16em!important}
+  .hero-actions{display:grid!important;grid-template-columns:1fr 1fr!important;gap:9px!important;width:min(100%,330px)!important;margin-top:24px!important}
+  .hero-actions .btn{min-width:0!important;width:100%;min-height:48px;padding:12px 10px!important;justify-content:center;font-size:13px!important;white-space:nowrap}
+  .hero-nameplate{left:16px!important;right:auto!important;bottom:62px!important;text-align:left!important}
+  .hero-nameplate strong{font-size:32px!important;line-height:1.1!important}
+  .hero-nameplate em{font-size:7px!important;letter-spacing:.16em!important}
+  .ticker{height:38px!important}
+
+  /* about */
+  #about{padding:72px 0!important}
+  #about .about-grid{grid-template-columns:1fr!important;gap:32px!important}
+  #about .portrait{width:100%!important;max-width:390px!important;height:auto!important;aspect-ratio:4/5;margin:0 auto!important;border-radius:16px!important}
+  #about .about-copy{max-width:none!important}
+  #about .about-copy .lead{font-size:19px!important;line-height:1.78!important;margin-bottom:18px!important}
+  #about .about-copy>p:not(.lead){max-width:none!important;margin-bottom:17px!important;font-size:15px!important;line-height:1.9!important}
+  #about .credential-chips{gap:7px!important;margin-top:19px!important}
+  #about .credential-chips span{font-size:11px!important;line-height:1.35!important;padding:8px 10px!important}
+  #about .quote{margin-top:38px!important;padding:28px 20px!important;border-radius:14px!important}
+  #about .quote blockquote{font-size:23px!important;line-height:1.6!important}
+
+  /* career */
+  #career{padding:78px 0 76px!important}
+  #career .career-map-intro{display:block!important;margin:0 auto 24px!important;padding-bottom:22px!important}
+  #career .career-map-intro h3{font-size:28px!important;line-height:1.5!important}
+  #career .career-map-intro p{max-width:none!important;margin-top:15px!important;font-size:14px!important;line-height:1.8!important}
+  #career .career-map{display:grid!important;grid-template-columns:1fr!important;gap:12px!important;min-height:0!important;padding-top:4px!important}
+  #career .career-center{grid-column:1!important;grid-row:auto!important;width:144px!important;height:144px!important;margin:2px auto 10px!important}
+  #career .career-ring{display:none!important}
+  #career .career-branch{grid-column:1!important;grid-row:auto!important;min-height:0!important;padding:19px 18px!important;border-radius:13px!important}
+  #career .career-branch li{font-size:13px!important;line-height:1.62!important;margin:6px 0!important;word-break:keep-all!important}
+
+  /* lesson */
+  #classes{padding:72px 0!important}
+  #classes .class-grid{grid-template-columns:1fr!important;gap:16px!important}
+  #classes .class-photo{height:auto!important;aspect-ratio:16/10!important}
+  #classes .class-body{min-height:0!important;padding:22px 20px!important}
+  #classes .class-body h3{font-size:18px!important;line-height:1.45!important}
+  #classes .class-body p{font-size:14px!important;line-height:1.78!important}
+  #classes .lesson-journey{margin-top:24px!important;padding:25px 18px 20px!important}
+  #classes .journey-head-v17 h3{font-size:23px!important;line-height:1.45!important}
+  #classes .journey-head-v17 p{font-size:13px!important;line-height:1.75!important}
+  #classes .journey-steps-v21{grid-template-columns:1fr!important;gap:11px!important}
+  #classes .journey-step-v21{min-height:0!important;padding:16px 14px!important}
+  #classes .journey-step-v21 span{font-size:13px!important;line-height:1.7!important}
+
+  /* audience */
+  #audience{min-height:0!important;padding:76px 0!important}
+  #audience .audience-layout{grid-template-columns:1fr!important;gap:28px!important;min-height:0!important}
+  #audience .audience-message h3{font-size:29px!important;line-height:1.5!important}
+  #audience .audience-message p{font-size:14px!important;line-height:1.85!important}
+  #audience .audience-map{height:auto!important;display:grid!important;grid-template-columns:1fr!important;gap:11px!important;margin:24px auto 0!important}
+  #audience .audience-arc,#audience .audience-spokes{display:none!important}
+  #audience .audience-core{position:relative!important;left:auto!important;bottom:auto!important;transform:none!important;width:min(100%,330px)!important;margin:0 auto 5px!important;padding:18px!important}
+  #audience .audience-node{position:relative!important;inset:auto!important;transform:none!important;width:100%!important;padding:17px 15px!important;text-align:left!important}
+  #audience .audience-node b{margin-right:8px!important}
+  #audience .audience-node strong{font-size:17px!important;line-height:1.5!important}
+  #audience .audience-node span{display:block!important;margin:7px 0 0 0!important;font-size:13px!important;line-height:1.65!important}
+
+  /* before / after */
+  #reviews{padding:76px 0!important}
+  #reviews .case-pro-intro-v36{margin:0 auto 28px!important;text-align:left!important}
+  #reviews .case-pro-intro-v36 strong{font-size:24px!important;line-height:1.55!important}
+  #reviews .case-pro-intro-v36 p{font-size:14px!important;line-height:1.8!important}
+  #reviews .ba-table-v40{border-radius:15px!important}
+  #reviews .ba-head-v40{display:none!important}
+  #reviews .ba-row-v40{grid-template-columns:1fr!important;min-height:0!important}
+  #reviews .ba-cell-v40{padding:20px 18px!important}
+  #reviews .ba-arrow-v40{height:38px!important;transform:rotate(90deg)!important;font-size:25px!important}
+  #reviews .ba-case-v40{align-items:flex-start!important;flex-wrap:wrap!important}
+  #reviews .ba-before-v40>p,#reviews .ba-after-title-v40{font-size:14px!important;line-height:1.75!important}
+  #reviews .ba-note-v40{text-align:left!important;font-size:11px!important}
+
+  /* stage + gallery */
+  .stage-archive-wrap .stage-videos{padding:70px 0 28px!important}
+  .stage-archive-wrap>.gallery{padding:30px 0 72px!important}
+  .performance-head{margin-bottom:22px!important}
+  .stage-archive-wrap .stage-videos .performance-head h3,.stage-archive-wrap>.gallery .section-title h2{font-size:28px!important}
+  .video-nav{margin-bottom:13px!important}
+  .video-nav button,.gallery-arrow{width:44px!important;height:44px!important}
+  .video-card,.video-card.featured{flex-basis:86%!important}
+  .video-card img{aspect-ratio:16/9!important;height:auto!important}
+  .video-card span{font-size:12px!important;line-height:1.5!important}
+  .video-help{font-size:12px!important;line-height:1.6!important;text-align:left!important}
+  .gallery .gallery-item{width:min(78vw,300px)!important;height:auto!important;aspect-ratio:4/3!important}
+  .gallery-arrow{opacity:.92!important}
+
+  /* contact */
+  #contact .contact-inner{width:calc(100% - 32px)!important;padding:64px 0 60px!important}
+  #contact.contact-elegant::after{inset:12px!important}
+  #contact .contact-simple-copy-v44 h2{max-width:340px;margin:0 auto!important;font-size:29px!important;line-height:1.55!important}
+  #contact .contact-simple-copy-v44 p{font-size:14px!important;line-height:1.75!important}
+  #contact .contact-simple-actions-v44{grid-template-columns:1fr!important;width:min(100%,330px)!important;margin:26px auto 0!important}
+  #contact .contact-simple-actions-v44 a{min-height:48px!important;padding:13px 18px!important;font-size:14px!important}
+  #contact .contact-simple-phone-v44{margin-top:19px!important;font-size:21px!important;letter-spacing:.035em!important;white-space:nowrap}
+  footer{padding:20px 16px!important;line-height:1.6!important;letter-spacing:.1em!important}
+  .voice-btn{right:14px!important;bottom:14px!important;width:52px!important;height:52px!important}
+  .voice-note{left:16px!important;right:16px!important;bottom:76px!important;text-align:center!important}
+}
+@media(max-width:390px){
+  .hero h1{font-size:39px!important}
+  .hero-actions{grid-template-columns:1fr 1fr!important}
+  .section-title h2{font-size:27px!important}
+  #audience .audience-message h3,#contact .contact-simple-copy-v44 h2{font-size:27px!important}
+  #about .quote blockquote{font-size:21px!important}
+}
 </style></head>
 <body class="story-layout-v6 story-layout-v7">
 <header class="site-header" id="header">
